@@ -64,7 +64,9 @@ class ViewController: UIViewController {
         
         present(stopAlart, animated: true)
     }
-    
+    @IBAction func select120second(){
+        startTimer(time: 30)
+    }
     @IBAction func select1minn(){
         startTimer(time: 60)
     }
